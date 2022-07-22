@@ -70,6 +70,16 @@ body {
     padding: 110px 0 110px 0;
 }
 
+.produk-list h5 {
+    text-align: justify;
+    color: #3571E7;
+}
+
+.produk-list p {
+    font-family: Poppins;
+    color: #08368F;
+}
+
 .bungkus-produk, .bungkus-artikel {
     margin-top: 50px;
 }
@@ -134,6 +144,10 @@ body {
 .artikel-pages, .artikel-full {
     margin-top: 120px;
     margin-bottom: 100px;
+}
+
+.artikel-pages p {
+    color: #08368F;
 }
 
 .artikel-full h1, h2, h3, h4, h5, h6 {
