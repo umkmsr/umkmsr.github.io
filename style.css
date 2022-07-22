@@ -1,0 +1,197 @@
+body {
+    height: 1000px;
+}
+
+.navbar {
+    font-family: Poppins;
+}
+
+.beranda {
+    padding: 120px 0 200px 0;
+    background-color: rgba(80, 133, 235, .29);
+}
+
+.beranda p {
+    font-family: Poppins;
+}
+
+.beranda h1, p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.beranda h1, h3 {
+    color: #3571E7;
+}
+
+.tombol {
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgb(175, 175, 175);
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.tentang {
+    padding: 110px 0 0 0;
+    border-radius: 30px 30px 0 0;
+    margin-top: -50px;
+    background-color: white;
+}
+
+.tentang h2, .produk h2, .artikel h2 {
+    text-align: center;
+    font-family: Ubuntu;
+    color: #3571E7;
+}
+
+.tentang .rectange, .produk .rectange, .artikel .rectange {
+    content: '';
+    display: block;
+    border-bottom: 4px solid #786E18;
+    border-radius: 2px;
+    width: 5%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.tentang p {
+    font-family: Poppins;
+}
+
+.icon1 {
+    background-image: url(img/icon1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 300px;
+}
+
+.produk, .artikel {
+    padding: 110px 0 110px 0;
+}
+
+.bungkus-produk, .bungkus-artikel {
+    margin-top: 50px;
+}
+
+.bungkus-produk h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bungkus-produk
+.kuliner-category,
+.penjahit-category,
+.pengrajin-category,
+.laundry-category {
+    margin-bottom: 50px;
+}
+
+#produk img, #artikel img {
+    height: 250px;
+}
+
+#produk button a {
+    color: white;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.artikel {
+    background-color: rgba(80, 133, 235, .29);
+}
+
+.bungkus-artikel {
+    background-color: rgba(31, 31, 31, .2);
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: #142B72;
+    border-radius: 30px 30px 0 0;
+    color: white;
+    font-family: Poppins;
+}
+
+.footer p {
+    margin: 20px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 20px;
+}
+
+.artikel-pages, .artikel-full {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.artikel-full h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu;
+}
+
+.artikel-full h1, h2, h3{
+    color: #3571E7;
+}
+
+.artikel-full p {
+    font-family: Poppins;
+    color: black;
+}
+
+.artikel-inti, .sidebar-kanan {
+    background-color: rgba(217, 217, 217, .5);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.breadcrumb {
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    padding: 10px;
+    color: #08368F;
+}
+
+.sidebar-kanan {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .imageHome {
+        background-image: url(img/image1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        height: 400px;
+        margin-bottom: -300px;
+        margin-top: 50px;
+        /* color: #5085EB; */
+    }
+    .imageTentang {
+        background-image: url(img/image2.png);
+        background-repeat: no-repeat;
+        background-size: 468px 363px;
+        height: 400px;
+        margin-bottom: -300px;
+        margin-top: 50px;
+        /* color: #5085EB; */
+    }
+}
+
+@media (max-width: 768px) {
+    .col1 {
+        display: none;
+    }
+}
